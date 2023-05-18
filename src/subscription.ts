@@ -13,7 +13,9 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
     // Just for fun :)
     // Delete before actually using
     for (const post of ops.posts.creates) {
+      console.log(post.record.createdAt)
       console.log(post.record.text)
+      console.log(``)
     }
 
     const postsToDelete = ops.posts.deletes.map((del) => del.uri)
