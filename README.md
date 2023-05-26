@@ -1,5 +1,11 @@
 # ATProto Feed Generator
 
+NOTE: This is my personal version for messing around with. 
+You probably want to use the official one instead of 
+trying anything with this. 
+
+-----
+
 🚧 Work in Progress 🚧 
 
 We are actively developing Feed Generator integration into the Bluesky PDS. Though we are reasonably confident about the general shape and interfaces laid out here, these interfaces and implementation details _are_ subject to change. 
